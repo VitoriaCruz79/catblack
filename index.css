@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(252, 213, 213);
+}
+
+header {
+    border: 2px solid rgb(255, 0, 200);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.logoCat {
+    width: 35px;
+    height: 35px;
+}
+
+main {
+    border: 2px solid rgb(255, 0, 200);
+    padding: 10px;
+}
+
+main > div > section {
+    border: 2px solid red;
+    padding: 10px;
+    width: 70%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+main>article {
+    border: 2px solid yellow;
+    padding: 10px;
+    /* display: flex;  */
+    /* justify-content: center; */
+    /* align-items: center;  */
+}
+
+main>div>aside {
+    border: 2px solid blue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    border: 2px solid;
+    padding: 10px;
+}
+
+footer {
+    padding: 10px;
+    border: 2px solid purple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cats {
+    width: 80%;
+}
+
+.coluna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.coluna > nav {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerNav{
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px;
+}
